@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+body{
+    background: hsl(216, 12%, 8%);
+    height: 100%;
+}
+
+.main-box,
+.thanks-box{
+    background: hsl(213, 19%, 18%);
+    color: #fff;
+    width: 350px;
+    height: 350px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+.content{
+    margin-top: 20px;
+    padding: 20px;
+}
+.star {
+    padding: 10px;
+    background: hsl(213, 19%, 22%);
+    border-radius: 100%;
+}
+.title {
+    margin-top: 10px;
+}
+.text {
+    font-size: 14px;
+    margin-top: 15px;
+    color: hsl(216, 12%, 54%);
+}
+.num-box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+.number {
+    background: hsl(213, 19%, 21%);
+    color: hsl(216, 12%, 54%);
+    border-radius: 100%;
+    padding: 10px;
+    width: 40px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+}
+.number:hover {
+    background: hsl(25, 97%, 53%);
+    color: #fff;
+    transition: .2s;
+}
+.number:focus {
+    background: hsl(216, 12%, 54%);
+    color: #fff;
+    transition: .2s;
+}
+.btn {
+    margin-top: 35px;
+    margin-left: 5px;
+    padding: 10px 0 10px 0;
+    width: 300px;
+    background: hsl(25, 97%, 53%);
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #fff;
+    color: hsl(25, 97%, 53%);
+    transition: .2s;
+
+}
+.thanks-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thanks-pic {
+    margin-top: 10px;
+}
+.select-result {
+    margin-top: 20px;
+    padding: 5px;
+    background: hsl(216, 12%, 22%);
+    color: hsl(25, 97%, 53%);
+    width: 250px;
+    border-radius: 50px;
+    
+}
+
+.hidden {
+    display: none;
+}
+
+.attribution{
+    color: #fff;
+    letter-spacing: 3px;
+}
